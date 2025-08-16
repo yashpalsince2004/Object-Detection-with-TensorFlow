@@ -1,47 +1,51 @@
-# MITRA Chat API
+# Object Detection - Day 17 (Hinglish Explanation)
 
-This repository contains the Chat API for the MITRA project, built with **FastAPI**.  
-It provides endpoints to handle chatbot requests and integrates with the OpenAI API.
+This repository contains an **Object Detection project** with explanations in **Hinglish**.  
+The content is organized in a Jupyter Notebook (`Day17_Object_Detection_Hinglish.ipynb`) for better understanding.
 
-## Features
-- FastAPI-based backend
-- CORS support for cross-origin requests
-- Integration with OpenAI API
-- Environment variable configuration using `.env`
+## Project Overview
+- Implementation of Object Detection techniques.
+- Hinglish explanations for easy learning.
+- Practical examples with code walkthroughs.
 
-## Setup Instructions
+## Requirements
+Make sure you have the following installed:
+- Python 3.8+
+- Jupyter Notebook / JupyterLab
+- TensorFlow / PyTorch (depending on model used)
+- OpenCV
+- NumPy
+- Matplotlib
 
-1. Clone the repository:
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+## How to Run
+1. Clone this repository:
    ```bash
-   git clone https://github.com/MITRA0616/chat_api.git
-   cd chat_api
+   git clone <your-repo-link>
+   cd <repo-folder>
    ```
 
-2. Create a virtual environment and install dependencies:
+2. Install the dependencies:
    ```bash
-   python -m venv venv
-   source venv/bin/activate   # On Windows: venv\Scripts\activate
    pip install -r requirements.txt
    ```
 
-3. Add your environment variables in a `.env` file:
-   ```env
-   OPENAI_API_KEY=your_openai_api_key
-   ```
-
-4. Run the FastAPI server:
+3. Launch Jupyter Notebook:
    ```bash
-   uvicorn main:app --reload
+   jupyter notebook
    ```
 
-5. Access the API docs at:  
-   [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+4. Open **Day17_Object_Detection_Hinglish.ipynb** and start running the cells.
 
-## Developer
+## File Structure
+- `Day17_Object_Detection_Hinglish.ipynb` → Notebook with code and Hinglish explanations.
+- `requirements.txt` → Python dependencies.
 
-Created and maintained by **Yash Pal**  
+## Author
+👤 **Yash Pal**  
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/yash-pal-since2004)
 
-- [LinkedIn](https://www.linkedin.com/in/yash-pal-since2004)
-
----
-✨ Contributions and feedback are always welcome!
