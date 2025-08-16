@@ -25,8 +25,8 @@ pip install -r requirements.txt
 ## How to Run
 1. Clone this repository:
    ```bash
-   git clone <your-repo-link>
-   cd <repo-folder>
+   git clone <https://github.com/yashpalsince2004/Object-Detection-with-TensorFlow.git>
+   cd <Object-Detection-with-TensorFlow>
    ```
 
 2. Install the dependencies:
